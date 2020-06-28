@@ -1,0 +1,28 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+#__nuxt {
+  @apply h-screen flex flex-col;
+}
+
+html, body {
+  @apply h-screen text-sm;
+}
+
+body {
+  background: rgb(105,62,167);
+  background: linear-gradient(90deg, rgba(105,62,167,1) 0%, rgba(120,0,149,1) 50%, rgba(162,0,176,1) 100%);
+}
+
+.container {
+  @apply max-w-98;
+}
+
+a, a:visited{
+  @apply p-2 inline-block text-center align-middle text-white uppercase text-sm;
+}
+
+button {
+  @apply bg-pink-600 text-white font-bold py-2 px-4 rounded-full pointer-events-none;
+}
