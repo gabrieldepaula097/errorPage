@@ -19,24 +19,58 @@ body {
   @apply max-w-98;
 }
 
-a, a:visited{
-  @apply p-2 inline-block text-center align-middle text-white uppercase text-sm;
+.error-text-bottom {
+  @apply -mt-8 bg-pink-600 text-white font-bold py-2 px-4 rounded-full pointer-events-none;
 }
 
-/* button {
-  @apply bg-pink-600 text-white font-bold py-2 px-4 rounded-full pointer-events-none;
-} */
+a, a:visited{
+  @apply p-2 inline-block text-center align-middle text-white uppercase text-xs;
+}
 
-@media (max-width: 708px) {
+@media (min-width:320px) { 
+  /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */ 
+}
+@media (min-width:480px) {
+  /* smartphones, Android phones, landscape iPhone */
+}
+@media (max-width:767px) { 
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+  .error {
+    height: 56vh;
+  }
   .navbar-text{
     @apply px-2 pt-2 pb-4;
   }
-}
 
-@media (min-width: 707px) {
+  .error-text-top {
+    @apply mt-8 -mb-4;
+    font-size: 30px;
+  }
+
+  .error-text-center {
+    font-size: 150px;
+    line-height: 1;
+  }
+  .error-text-bottom {
+    @apply mt-0;
+  }
+}
+@media (min-width: 768px) {
+  .error {
+    height: 58vh;
+  }
+  .error-text-top {
+    @apply mt-8 -mb-20;
+    font-size: 30px;
+  }
+
+  .error-text-center {
+    font-size: 200px;
+  }
   .navbar-header{
     @apply flex justify-between items-center;
   }
+
   .navbar-button{
     @apply hidden;
   }
@@ -45,9 +79,9 @@ a, a:visited{
     @apply flex p-0;
   }
 }
-
-
-/* @media ((min-width: 701px) and (max-width: 1000px)) {
-  @apply text-base;
-} */
-
+@media (min-height:1025px) {
+  /* big landscape tablets, laptops, and desktops */ 
+}
+@media (min-width:1281px) {
+  /* hi-res laptops and desktops */ 
+}
