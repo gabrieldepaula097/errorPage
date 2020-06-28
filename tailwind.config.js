@@ -25,11 +25,12 @@ module.exports = {
       '3/4': '75%',
       '100': '100%',
     },
-    fontSize: {
-      'sm': '.875rem',
-      'top-message': '5rem',
-      'center-message': '10rem',
-    },
+    // fontSize: {
+    //   'sm': '.875rem',
+    //   'top-message': '4rem',
+    //   'center-message': '10rem',
+    //   'button': '2rem',
+    // },
     extend: {
       colors: {
         textColorH1: '#e6abe6',

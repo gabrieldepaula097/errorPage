@@ -1,5 +1,5 @@
 <template>
-  <div class="container text-center text-white align-middle justify-between max-h-1/4">
+  <div class="container text-center text-white align-middle justify-between">
     <div class="flex flex-row mb-4 ml-4 align-middle justify-between">
       <div class="w-1/2 h-auto text-left">
         <img src="@/assets/logo-branco.svg" width="150" class="p-2 inline-block text-left">

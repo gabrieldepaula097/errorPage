@@ -1,5 +1,5 @@
 <template>
-  <div class="container h-screen flex flex-col items-center justify-center m-auto">
+  <div class="container">
     <NavBar />
     <ErrorMessage />
     <Footer />
@@ -8,7 +8,7 @@
 
 <script>
 import NavBar from './NavBar'
-import ErrorMessage from './ErrorMessage' 
+import ErrorMessage from './ErrorMessage'
 import Footer from './Footer'
 
 export default {
