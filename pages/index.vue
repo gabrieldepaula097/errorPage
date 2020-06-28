@@ -8,7 +8,7 @@
 
 <script>
 import NavBar from './NavBar'
-import ErrorMessage from './ErrorMessage'
+import ErrorMessage from './ErrorMessage' 
 import Footer from './Footer'
 
 export default {
