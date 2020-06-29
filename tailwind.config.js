@@ -8,6 +8,9 @@ module.exports = {
   theme: {
     maxWidth: {
     '15': '15%',
+    '20': '20%',
+    '30': '30%',
+    '40': '40%',
     '50': '50vw',
     '98': '98vw',
     '100': '100vw',
@@ -26,12 +29,14 @@ module.exports = {
       '3/4': '75vh',
       '100': '100vh',
     },
-    // fontSize: {
-    //   'sm': '.875rem',
-    //   'top-message': '4rem',
-    //   'center-message': '10rem',
-    //   'button': '2rem',
-    // },
+    width: {
+      '25': '25%',
+      '33': '33%',
+      '35': '35%',
+      '40': '40%',
+      '50': '50%',
+      '100': '100%',
+    },
     extend: {
       colors: {
         textColorH1: '#e6abe6',
