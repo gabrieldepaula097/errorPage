@@ -1,4 +1,6 @@
 # errorPage
+Página estática para redirecionamento de erros do blog  da Influu.
+Página responsiva para os principais dispositivos de mídia.
 
 ## Build Setup
 
