@@ -16,10 +16,10 @@
             <div class="d-none text-left d-lg-flex flex-column col">
               <h5 class="mb-1 textColorH1">Influu</h5>
               <ul>
-                <li><a href="/pt/about-us" class="p-0 normal-case">About</a></li>
-                <li><a href="/pt/terms-of-use" class="p-0 normal-case">Terms of use</a></li>
-                <li><a href="/pt/privacy-policy" class="p-0 normal-case">Privacy Policy</a></li>
-                <li><a target="_blank" href="https://influu.me/blog" class="p-0 normal-case">Blog</a></li>
+                <li><a href="#" class="p-0 normal-case">About</a></li>
+                <li><a href="#" class="p-0 normal-case">Terms of use</a></li>
+                <li><a href="#" class="p-0 normal-case">Privacy Policy</a></li>
+                <li><a href="#" class="p-0 normal-case">Blog</a></li>
               </ul>
             </div>
           </div>
@@ -27,10 +27,10 @@
             <div class="d-none text-left d-lg-flex flex-column col">
               <h5 class="mb-1 textColorH1">Product</h5>
               <ul>
-                <li><a href="/pt#content3" class="p-0 normal-case">How does it work?</a></li>
-                <li><a href="/pt#content4" class="p-0 normal-case">Plataform</a></li>
-                <li><a href="/pt#content2" class="p-0 normal-case">Cases/Clients</a></li>
-                <li><a href="" class="p-0 normal-case">FAQ</a></li>
+                <li><a href="#" class="p-0 normal-case">How does it work?</a></li>
+                <li><a href="#" class="p-0 normal-case">Plataform</a></li>
+                <li><a href="#" class="p-0 normal-case">Cases/Clients</a></li>
+                <li><a href="#" class="p-0 normal-case">FAQ</a></li>
               </ul>
             </div>
           </div>
@@ -38,9 +38,9 @@
             <div class="d-none text-left d-lg-flex flex-column col">
               <h5 class="mb-1 textColorH1">Talk to us</h5>
               <ul>
-                <li><a href="/pt#content5" class="p-0 normal-case">Contact</a></li>
-                <li><a href="" class="p-0 normal-case">Press </a></li>
-                <li><a href="" class="p-0 normal-case">Social media</a></li>
+                <li><a href="#" class="p-0 normal-case">Contact</a></li>
+                <li><a href="#" class="p-0 normal-case">Press </a></li>
+                <li><a href="#" class="p-0 normal-case">Social media</a></li>
               </ul>
             </div>
           </div>
