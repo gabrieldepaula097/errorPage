@@ -6,7 +6,12 @@ Página responsiva para os principais dispositivos de mídia.
 ## Página online no Netlify
 https://error-page-influu.netlify.app/
 
-### Build Setup
+### Tecnologias utilizadas
+- Nuxt.js
+
+- TailwindCSS
+
+#### Build Setup
 
 ```bash
 # install dependencies
